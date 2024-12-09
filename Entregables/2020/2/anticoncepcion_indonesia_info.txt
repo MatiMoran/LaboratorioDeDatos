@@ -1,0 +1,30 @@
+Dataset: Elección de método anticonceptivo (1987 National Indonesia Contraceptive Prevalence Survey)
+
+Fuentes:
+
+Creador: Tjen-Sien Lim (limt@stat.wisc.edu)
+Fecha: 7 de Junio de 1997
+
+Información: 
+
+Este dataset es un subconjunto del 1987 National Indonesia Contraceptive Prevalence Survey.  Cada sample (fila) representa a una mujer casada que no está embarazada o bien no lo sabe al momento de la entrevista. 
+
+El problema es predecir el uso de anticonceptivos en la muestra (ningún método vs. métodos de corto o largo plazo).
+
+Atributos:
+
+1. Edad de la mujer (numérico)
+2. Educación de la mujer (ordinal, 1=bajo, 2, 3, 4=alto)
+3. Educación del hombre (ordinal, 1=bajo, 2, 3, 4=alto)
+4. Número de hijos nacidos (numérico)
+5. Religión de la mujer (binario, 1=Islam, 0= No islam)
+6. ¿Trabaja la mujer? (binario, 1=Sí, 0=No)
+7. Ocupación del hombre (categórico, 1,2,3,4)
+8. Índice de nivel de vida (ordinal, 1=bajo, 2, 3, 4=alto)
+9. Exposición a medios (binario, 1=Sí, 0=No)
+10. Método anticonceptivo utilizado (categórico, 1=No usa, 2=Largo plazo, 3=Corto plazo)
+
+El objetivo es dicotomizar la variable 10 entre No usa (1) vs. Largo o corto plazo (2 o 3) y predecir la variable binaria resultante.
+
+Para más información sobre el contexto en el cual fueron adquiridos estos datos y su uso visitar https://dhsprogram.com/pubs/pdf/SR9/SR9.pdf
+
